@@ -1,38 +1,21 @@
 .intro {
   display: flex;
   justify-content: center;
-  position: absolute;
-  background-color: #2a2c2f;
+  flex-direction: column;
 }
 .intro__title {
-  position: absolute;
-  width: 830px;
+  max-width: 830px;
   height: 173.92px;
-  right: 302px;
-  top: 1269px;
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
-  color: #ffffff;
 }
 .intro__text {
-  position: absolute;
-
-  top: 1482.91px;
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
-  color: #ffffff;
 }
 .intro__text-citation {
-  display: flex;
-  justify-items: center;
-  justify-content: center;
-  gap: 40px;
   padding-bottom: 215px;
 }
 .intro__text-author {

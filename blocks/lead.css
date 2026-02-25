@@ -1,20 +1,12 @@
 .lead {
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  min-height: 720px;
-  max-height: 800px;
+
   position: relative;
   box-sizing: border-box;
-  background-size: cover;
 }
 
 .lead__title {
-  position: absolute;
-  width: 720px;
-  height: 200px;
-  left: 280px;
-  top: 194px;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 900;
@@ -27,21 +19,22 @@
 }
 
 .lead__subtitle {
-  position: absolute;
-
-  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
   line-height: 36px;
   text-align: center;
-  color: #ffffff;
 }
 
 .lead__image {
-  position: absolute;
   width: 984px;
   height: 615px;
   left: 148px;
   top: 562px;
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 320px) {
 }
