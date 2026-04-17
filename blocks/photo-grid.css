@@ -23,8 +23,7 @@
 
 @media screen and (max-width: 320px) {
   .photo-grid {
-    padding: 38px 16px 62px;
-    display: grid;
+    padding: 38px 16px;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(8, 1fr);
     gap: 12px;
