@@ -36,13 +36,13 @@
   grid-area: artist;
   align-self: end;
 }
-.place__artist__name,
-.place__artist__url-heading,
+.place__artist-name,
+.place__artist-url-heading,
 .place__paragraph {
   font-weight: 400;
   margin: 0;
 }
-.place__artist__url-heading {
+.place__artist-url-heading {
   max-width: 85px;
   max-height: 15px;
   font-size: 12px;
@@ -55,7 +55,7 @@
 .place__frame {
   font-size: 18px;
 }
-.place__artist__name {
+.place__artist-name {
   max-width: 456px;
   line-height: 22px;
 }
@@ -107,17 +107,15 @@
   .place__image {
     height: 340px;
   }
-  .place__artist__url-heading {
+  .place__artist-url-heading {
     max-width: 67px;
   }
-  .place__artist__name {
+  .place__artist-name {
     max-width: 352px;
   }
   .place__paragraph {
     font-size: 16px;
     max-width: 352px;
-  }
-  .place__frame {
   }
 }
 
@@ -147,11 +145,11 @@
     align-self: flex-start;
     padding-left: 16px;
   }
-  .place__artist__url-heading {
+  .place__artist-url-heading {
     max-width: 288px;
     line-height: 100%;
   }
-  .place__artist__name {
+  .place__artist-name {
     max-width: 288px;
     font-size: 18px;
     max-height: 44px;
